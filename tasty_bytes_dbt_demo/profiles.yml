@@ -9,6 +9,14 @@ tasty_bytes:
       database: DBT_PROJECTS_PROD
       schema: ANALYTICS
       warehouse: DBT_PROJECTS_TRANSFORMING
+    qa:
+      type: snowflake
+      account: 'not needed'
+      user: 'not needed'
+      role: DBT_PROJECTS_TRANSFORMER
+      database: DBT_PROJECTS_PROD
+      schema: ANALYTICS
+      warehouse: DBT_PROJECTS_TRANSFORMING
     prod:
       type: snowflake
       account: 'not needed'
