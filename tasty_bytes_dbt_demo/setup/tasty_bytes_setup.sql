@@ -61,7 +61,7 @@ CREATE OR REPLACE TABLE tasty_bytes_dbt_db.raw.country
     city VARCHAR(16777216),
     city_population VARCHAR(16777216)
 ) 
-COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":0, "source":"sql"}}';
+COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":1, "source":"sql"}}';
 
 -- franchise table build
 CREATE OR REPLACE TABLE tasty_bytes_dbt_db.raw.franchise 
@@ -74,7 +74,7 @@ CREATE OR REPLACE TABLE tasty_bytes_dbt_db.raw.franchise
     e_mail VARCHAR(16777216),
     phone_number VARCHAR(16777216) 
 )
-COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":0, "source":"sql"}}';
+COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":1, "source":"sql"}}';
 
 -- location table build
 CREATE OR REPLACE TABLE tasty_bytes_dbt_db.raw.location
@@ -87,7 +87,7 @@ CREATE OR REPLACE TABLE tasty_bytes_dbt_db.raw.location
     iso_country_code VARCHAR(16777216),
     country VARCHAR(16777216)
 )
-COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":0, "source":"sql"}}';
+COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":1, "source":"sql"}}';
 
 -- menu table build
 CREATE OR REPLACE TABLE tasty_bytes_dbt_db.raw.menu
@@ -104,7 +104,7 @@ CREATE OR REPLACE TABLE tasty_bytes_dbt_db.raw.menu
     sale_price_usd NUMBER(38,4),
     menu_item_health_metrics_obj VARIANT
 )
-COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":0, "source":"sql"}}';
+COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":1, "source":"sql"}}';
 
 -- truck table build 
 CREATE OR REPLACE TABLE tasty_bytes_dbt_db.raw.truck
@@ -124,7 +124,7 @@ CREATE OR REPLACE TABLE tasty_bytes_dbt_db.raw.truck
     franchise_id NUMBER(38,0),
     truck_opening_date DATE
 )
-COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":0, "source":"sql"}}';
+COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":1, "source":"sql"}}';
 
 -- order_header table build
 CREATE OR REPLACE TABLE tasty_bytes_dbt_db.raw.order_header
@@ -146,7 +146,7 @@ CREATE OR REPLACE TABLE tasty_bytes_dbt_db.raw.order_header
     order_discount_amount VARCHAR(16777216),
     order_total NUMBER(38,4)
 )
-COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":0, "source":"sql"}}';
+COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":1, "source":"sql"}}';
 
 -- order_detail table build
 CREATE OR REPLACE TABLE tasty_bytes_dbt_db.raw.order_detail 
@@ -161,7 +161,7 @@ CREATE OR REPLACE TABLE tasty_bytes_dbt_db.raw.order_detail
     price NUMBER(38,4),
     order_item_discount_amount VARCHAR(16777216)
 )
-COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":0, "source":"sql"}}';
+COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":1, "source":"sql"}}';
 
 -- customer loyalty table build
 CREATE OR REPLACE TABLE tasty_bytes_dbt_db.raw.customer_loyalty
@@ -182,7 +182,7 @@ CREATE OR REPLACE TABLE tasty_bytes_dbt_db.raw.customer_loyalty
     e_mail VARCHAR(16777216),
     phone_number VARCHAR(16777216)
 )
-COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":0, "source":"sql"}}';
+COMMENT = '{"origin":"sf_sit-is", "name":"tasty-bytes-dbt", "version":{"major":1, "minor":0}, "attributes":{"is_quickstart":1, "source":"sql"}}';
 
 /*--
  raw zone table load 
